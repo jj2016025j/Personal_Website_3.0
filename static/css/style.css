@@ -1,0 +1,319 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 auto;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  z-index: 1000;
+}
+
+.cover {
+  background-image: url("/static/images/00200-3033230104.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  align-self: stretch;
+  justify-content: stretch;
+}
+
+title {
+  display: flex;
+  padding: 30px 10px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  height: 100px;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  padding: 30px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.items-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  padding: 0px 200px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--Text-Color, #000);
+}
+
+h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h3 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h5 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+}
+
+.text-white {
+  color: var(--Text-Color, #FFF);
+}
+
+.text-black {
+  color: var(--Text-Color, #000);
+}
+
+.btn-rounded-bg {
+  display: inline-flex;
+  padding: 5px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: var(--Background-Color, rgb(255, 255, 255));
+  backdrop-filter: blur(5px);
+}
+
+.btn-inverse-rounded-bg {
+  display: inline-flex;
+  padding: 5px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: var(--Background-Color, rgb(0, 0, 0));
+  backdrop-filter: blur(5px);
+}
+
+.btn-transparent-bg {
+  display: inline-flex;
+  padding: 5px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-inverse-transparent-bg {
+  display: inline-flex;
+  padding: 5px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* 商品 / 服務 */
+.product-card-horizontal {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.product-card-vertical {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card-horizontal {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.service-card-vertical {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 作品 */
+.portfolio-horizontal {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolio-vertical {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-item-horizontal {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery-item-vertical {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 滿版作品展示 */
+.portfolio-full-horizontal {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolio-full-vertical {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-full-horizontal {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery-full-vertical {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 職缺 */
+.job-card-horizontal {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.job-card-vertical {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.career-card-horizontal {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.career-card-vertical {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+ul {
+  gap: 20px;
+  list-style: none;
+  padding-left: 0;
+  /* 移除左側預設縮進 */
+  margin-left: 0;
+  /* 視情況調整間距 */
+  display: flex;
+}
+
+a {
+  color: var(--Text-Color, #FFF);
+}
+
+p {
+  overflow-wrap: break-word;
+}
+
+img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  object-fit: cover;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

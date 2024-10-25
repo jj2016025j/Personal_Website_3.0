@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+ul {
+    gap: 20px;
+    list-style: none;
+    padding-left: 0;
+    /* 移除左側預設縮進 */
+    margin-left: 0;
+    /* 視情況調整間距 */
+    display: flex;
+}
+
+a {
+    color: var(--Text-Color, #FFF);
+}
+
+p {
+    overflow-wrap: break-word;
+}
+
+img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    object-fit: cover;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.gap-50{
+    gap:50px
+}

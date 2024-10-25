@@ -1,0 +1,121 @@
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* 商品 / 服務 */
+.product-card-horizontal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.product-card-vertical {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card-horizontal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.service-card-vertical {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 作品 */
+.portfolio-horizontal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio-vertical {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-item-horizontal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-item-vertical {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 滿版作品展示 */
+.portfolio-full-horizontal {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio-full-vertical {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-full-horizontal {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-full-vertical {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 職缺 */
+.job-card-horizontal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.job-card-vertical {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.career-card-horizontal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.career-card-vertical {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}

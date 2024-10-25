@@ -1,0 +1,47 @@
+.btn-rounded-bg {
+    display: inline-flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 25px;
+    background: var(--Background-Color, rgba(255, 255, 255));
+    backdrop-filter: blur(5px);
+}
+
+.btn-inverse-rounded-bg {
+    display: inline-flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 25px;
+    background: var(--Background-Color, rgba(0, 0, 0));
+    backdrop-filter: blur(5px);
+}
+
+.btn-transparent-bg {
+    display: inline-flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-inverse-transparent-bg {
+    display: inline-flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+// .btn-outline{
+
+// }
+
+// .btn-rounded-outline{
+
+// }
+
+// .btn-icon{
+
+// }
