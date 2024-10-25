@@ -1,47 +1,42 @@
-.btn-rounded-bg {
+.btn {
     display: inline-flex;
     padding: 5px 20px;
     justify-content: center;
     align-items: center;
+    border: none;
 
-    border-radius: 25px;
-    background: var(--Background-Color, rgba(255, 255, 255));
     backdrop-filter: blur(5px);
 }
 
-.btn-inverse-rounded-bg {
-    display: inline-flex;
-    padding: 5px 20px;
-    justify-content: center;
-    align-items: center;
-
+/* 圓角 */
+.btn-rounded {
     border-radius: 25px;
-    background: var(--Background-Color, rgba(0, 0, 0));
-    backdrop-filter: blur(5px);
 }
 
-.btn-transparent-bg {
-    display: inline-flex;
-    padding: 5px 20px;
-    justify-content: center;
-    align-items: center;
+/* 方形 */
+.btn-square {
+    border-radius: 0;
 }
 
-.btn-inverse-transparent-bg {
-    display: inline-flex;
-    padding: 5px 20px;
-    justify-content: center;
-    align-items: center;
+/* 框線按鈕 */
+.btn-outline-black {
+    background-color: transparent;
+    border: 2px solid var(--Background-Color, rgba(0, 0, 0));
 }
 
-// .btn-outline{
-
-// }
-
-// .btn-rounded-outline{
-
-// }
+.btn-outline-white {
+    background-color: transparent;
+    border: 2px solid var(--Background-Color, rgba(255, 255, 255));
+}
 
 // .btn-icon{
 
 // }
+
+.btn-bg-white {
+    background: var(--Background-Color, rgba(255, 255, 255));
+}
+
+.btn-bg-black {
+    background: var(--Background-Color, rgba(0, 0, 0));
+}

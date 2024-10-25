@@ -5,21 +5,18 @@ nav {
 }
 
 ul {
+    display: flex;
     gap: 20px;
     list-style: none;
     padding-left: 0;
     /* 移除左側預設縮進 */
     margin-left: 0;
     /* 視情況調整間距 */
-    display: flex;
 }
 
 a {
     color: var(--Text-Color, #FFF);
-}
-
-p {
-    overflow-wrap: break-word;
+    text-decoration: none;
 }
 
 img {
@@ -40,6 +37,14 @@ img {
     flex-direction: column;
 }
 
+.gap-20{
+    gap:20px
+}
+
 .gap-50{
     gap:50px
+}
+
+.gap-100{
+    gap:100px
 }

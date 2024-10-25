@@ -4,62 +4,90 @@
     gap: 20px;
 }
 
-/* 商品 / 服務 */
-.product-card-horizontal {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
+.options {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.product-card-vertical {
-    width: auto;
+/* 商品*/
+.product-card {
+    width: 250px;
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background: var(--Reverse-Background-Color, rgba(255, 255, 255));
 }
 
-.service-card-horizontal {
+// 商品圖
+.product-card-img {
     width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
+    height: 250px;
+    align-self: stretch;
 }
 
-.service-card-vertical {
-    width: auto;
-    height: 100%;
+// 商品內容
+.product-card-content {
     display: flex;
+    padding: 10px;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    align-self: stretch;
 }
 
 /* 作品 */
-.portfolio-horizontal {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-}
-
 .portfolio-vertical {
-    width: auto;
-    height: 100%;
     display: flex;
+    width: 290px;
+    height: 357px;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
 }
 
-.gallery-item-horizontal {
-    width: 100%;
-    height: auto;
+// 作品+介紹
+.featured-portfolio-vertical {
     display: flex;
-    flex-direction: row;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 25px;
+    /* 模糊效果 */
+    backdrop-filter: blur(25px);
 }
 
-.gallery-item-vertical {
-    width: auto;
-    height: 100%;
+.featured-portfolio-img {
+    display: flex;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.featured-portfolio-content {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.title-time-flex-start {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    align-self: stretch;
 }
 
 /* 滿版作品展示 */
@@ -77,45 +105,64 @@
     flex-direction: column;
 }
 
-.gallery-full-horizontal {
-    width: 100vw;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-}
-
-.gallery-full-vertical {
-    width: auto;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
 /* 職缺 */
 .job-card-horizontal {
-    width: 100%;
-    height: auto;
     display: flex;
-    flex-direction: row;
+    width: 334px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
 
-.job-card-vertical {
-    width: auto;
-    height: 100%;
+.job-card-img {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+.job-card-content {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.skill-card {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.content-us {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 25px;
+}
+
+.title-time-center {
     display: flex;
     flex-direction: column;
-}
-
-.career-card-horizontal {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-}
-
-.career-card-vertical {
-    width: auto;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    align-self: stretch;
 }
