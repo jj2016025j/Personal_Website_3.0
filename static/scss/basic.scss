@@ -19,12 +19,15 @@ a {
     text-decoration: none;
 }
 
-img {
+img {//undo 修改成適當大小
+    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
     object-fit: cover;
+    flex-shrink: 0;
 }
 
 .horizontal {

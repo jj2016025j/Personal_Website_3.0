@@ -27,16 +27,18 @@ header {
     top: 0;
     position: fixed;
     padding: 30px 100px;
-    width: 100%;
+    width: 100vw;
     height: 50px;
     z-index: 1000;
+    background: var(--gray-Text-color, rgba(91, 91, 91, 0.5));
+
     /* 模糊效果 */
-    // backdrop-filter: blur(25px);
+    backdrop-filter: blur(1px);
 }
 
 .cover {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), 
-    url('/static/images/00200-3033230104.png') lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%),
+        url('/static/images/00200-3033230104.png') lightgray 50%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -45,7 +47,6 @@ header {
     // background-attachment: fixed; // 背景固定
     height: 100vh;
     width: 100%;
-    // align-self: stretch;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -71,14 +72,20 @@ header {
     gap: 20px;
 }
 
-title {
+.page-title {
     display: flex;
+    width: 100vw;
     height: 200px;
     padding: 50px 10px;
     justify-content: center;
     align-items: flex-end;
     gap: 10px;
     flex-shrink: 0;
+}
+
+.page-title-img {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%),
+        url("/static/images/00200-3033230104.png?v=1") lightgray 50% / cover no-repeat;
 }
 
 section {
@@ -88,14 +95,7 @@ section {
     justify-content: center;
     align-items: center;
     align-self: stretch;
-}
-
-.p-50-0 {
-    padding: 50px 0px;
-}
-
-.p-100-0 {
-    padding: 100px 0px;
+    flex-shrink: 0;
 }
 
 .display-area {
@@ -103,40 +103,6 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 30px;
-}
-
-.portfolio-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-}
-
-.product-list {
-    display: flex;
-    flex-direction: column;
-    width: 970px;
-    align-items: center;
-    align-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
-}
-
-.job-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-
-.skill-list {
-    display: flex;
-    width: 1000px;
-    align-items: center;
-    align-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
 }
 
 footer {
@@ -147,4 +113,16 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: var(--Text-Color, #000);
+}
+
+.p-50-0 {
+    padding: 50px 0px;
+}
+
+.p-100-0 {
+    padding: 100px 0px;
+}
+
+.gap-10 {
+    gap: 10px;
 }
