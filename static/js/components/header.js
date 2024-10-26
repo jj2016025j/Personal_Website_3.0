@@ -5,7 +5,7 @@ export function createHeader() {
     const headerHTML = `
         <nav>
             <ul class="gap-50">
-                ${createNavItem("/", "首頁")}
+                ${createNavItem("/static/html/", "首頁")}
                 ${createNavItem("/static/html/portfolio.html", "我的作品")}
                 ${createNavItem("/static/html/product.html", "我的服務")}
                 ${createNavItem("/static/html/team.html", "團隊招募")}
