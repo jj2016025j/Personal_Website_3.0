@@ -24,13 +24,13 @@ export function renderFeaturedPortfolioList() {
             date: '2024-10-25',
             title: 'CyberPunk電馭叛客2077-蕾貝卡',
             description: '「自小熱愛創新與挑戰，李建陞涉足遊戲開發...」',
-            imgSrc: '/static/images/00164-2396053275-0000.png',
+            imgSrc: '../images/00164-2396053275-0000.png',
         },
         {
             date: '2024-10-25',
             title: '我推的孩子-星野愛',
             description: '「自小熱愛創新與挑戰，李建陞涉足遊戲開發...」',
-            imgSrc: '/static/images/00201-2639187276-0000.png',
+            imgSrc: '../images/00201-2639187276-0000.png',
         }
     ];
 

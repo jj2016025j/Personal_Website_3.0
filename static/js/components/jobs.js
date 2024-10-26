@@ -17,22 +17,22 @@ export function renderJobList() {
         {
             title: '資深Unity開發工程師',
             description: '負責網頁應用開發，需精通React和Vue.js，與設計師及後端開發人員密切合作。',
-            imgSrc: '/static/images/00000-4201842700-0000.png'
+            imgSrc: '../images/00000-4201842700-0000.png'
         },
         {
             title: '資深3D美術人員',
             description: '負責網頁應用開發，需精通React和Vue.js，與設計師及後端開發人員密切合作。',
-            imgSrc: '/static/images/00203-3033230104.png'
+            imgSrc: '../images/00203-3033230104.png'
         },
         {
             title: 'UIUX設計師',
             description: '負責網頁應用開發，需精通React和Vue.js，與設計師及後端開發人員密切合作。',
-            imgSrc: '/static/images/00201-2639187276-0000.png'
+            imgSrc: '../images/00201-2639187276-0000.png'
         },
         {
             title: '資深全端開發工程師',
             description: '負責網頁應用開發，需精通React和Vue.js，與設計師及後端開發人員密切合作。',
-            imgSrc: '/static/images/00163-1172640860-0000.png'
+            imgSrc: '../images/00163-1172640860-0000.png'
         }
     ];
 
