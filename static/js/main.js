@@ -6,6 +6,8 @@ import { renderPortfolioList } from './components/portfolio.js';
 import { renderProductList } from './components/product.js';
 import { renderJoinUsSection } from './components/joinUs.js';
 import { createContactIcons } from './components/contactIcons.js';
+import { renderSkillList } from './components/skills.js';
+import { renderJobList } from './components/jobs.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     createHeader();
@@ -14,5 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderProductList();
     renderJoinUsSection();
     createContactIcons();
+    renderSkillList();
+    renderJobList();
     createFooter();
 });
