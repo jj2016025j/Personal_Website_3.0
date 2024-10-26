@@ -13,23 +13,23 @@ export function renderSkillList() {
     const skills = [
         {
             name: '網頁開發',
-            imgSrc: '/static/images/00164-2396053275-0000.png',
+            imgSrc: '../images/00164-2396053275-0000.png',
         },
         {
             name: '伺服器架設',
-            imgSrc: '/static/images/00203-3033230104.png',
+            imgSrc: '../images/00203-3033230104.png',
         },
         {
             name: 'AI繪圖',
-            imgSrc: '/static/images/00201-2639187276-0000.png',
+            imgSrc: '../images/00201-2639187276-0000.png',
         },
         {
             name: '平面設計',
-            imgSrc: '/static/images/00000-4201842700-0000.png',
+            imgSrc: '../images/00000-4201842700-0000.png',
         },
         {
             name: '營運管理',
-            imgSrc: '/static/images/00163-1172640860-0000.png',
+            imgSrc: '../images/00163-1172640860-0000.png',
         }
     ];
 

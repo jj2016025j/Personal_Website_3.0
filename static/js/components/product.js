@@ -22,17 +22,17 @@ export function renderProductList() {
         {
             name: 'CyberPunk電馭叛客2077-蕾貝卡',
             price: 'NT$ 1,099',
-            imgSrc: '/static/images/00164-2396053275-0000.png',
+            imgSrc: '../images/00164-2396053275-0000.png',
         },
         {
             name: '外國人模型-黃色外套',
             price: 'NT$ 245',
-            imgSrc: '/static/images/00000-4201842700-0000.png',
+            imgSrc: '../images/00000-4201842700-0000.png',
         },
         {
             name: '我推的孩子-星野愛',
             price: 'NT$ 699',
-            imgSrc: '/static/images/00201-2639187276-0000.png',
+            imgSrc: '../images/00201-2639187276-0000.png',
         }
     ];
 
