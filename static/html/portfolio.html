@@ -44,6 +44,14 @@
         </div>
     </section>
     <footer> </footer>
+    <script>
+        const base = document.createElement('base');
+        base.href = window.location.pathname.includes('Personal_Website_3.0')
+            ? '/Personal_Website_3.0/static/'
+            : '/static/';
+        document.head.appendChild(base);
+    </script>
+
     <script type="module" src="/static/js/main.js"></script>
 </body>
 
