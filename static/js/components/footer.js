@@ -8,6 +8,8 @@ export function createFooter() {
                 ${createFooterIcon("https://www.instagram.com/lee_871116", "fa-brands fa-instagram")}
                 ${createFooterIcon("https://www.youtube.com/channel/UCdFWtSFizZFpBovsUY7ZKyg", "fa-brands fa-youtube")}
                 ${createFooterIcon("line://ti/p/20161116", "fa-brands fa-line", "LINE")}
+                ${createFooterIcon("line://ti/p/HhwJIOE8Z1", "fa-brands fa-line", "LINE")}
+                ${createFooterIcon("https://line.me/ti/p/HhwJIOE8Z1", "fa-brands fa-line", "LINE")}
                 ${createFooterIcon("https://github.com/jj2016025j", "fa-brands fa-github")}
                 ${createFooterIcon("https://www.pixiv.net/users/73132253", "fa-brands fa-pixiv")}
                 ${createFooterIcon("mailto:ruoxi2002@gmail.com", "fa-brands fa-google")}

@@ -1,8 +1,15 @@
 // scss/style.scss
 
-@forward 'layout';
-@forward 'font';
-@forward 'color';
-@forward 'button';
-@forward 'components';
-@forward 'basic';
+// 導入基礎樣式
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/variables';
+
+// 導入佈局樣式
+@use 'layout/header';
+@use 'layout/footer';
+@use 'layout/grid';
+
+// 導入組件樣式
+@use 'components/buttons';
+@use 'components/cards';

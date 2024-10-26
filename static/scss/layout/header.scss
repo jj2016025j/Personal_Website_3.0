@@ -1,0 +1,13 @@
+@use '../base/variables' as var;
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    z-index: 1000;
+    background: var.$gray-05;
+    backdrop-filter: blur(1px);
+}

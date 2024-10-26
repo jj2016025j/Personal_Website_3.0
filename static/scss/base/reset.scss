@@ -1,4 +1,12 @@
-// scss/basic.scss
+// scss/_reset.scss
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    // border: solid 1px orange;
+}
 
 nav {
     display: flex;

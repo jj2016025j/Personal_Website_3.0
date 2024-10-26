@@ -1,0 +1,23 @@
+// scss/global.scss
+// 全局設置，包括 box-sizing 和 HTML、body 樣式
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    // border: solid 1px orange;
+}
+
+html {
+    width: 100vw;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 auto;
+    width: 100%;
+    overflow-x: hidden;
+}
