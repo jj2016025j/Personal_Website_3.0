@@ -1,0 +1,19 @@
+// scss/pagetitle.scss
+
+.page-title {
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    padding: 50px 10px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.page-title-img {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

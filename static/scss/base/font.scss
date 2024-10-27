@@ -1,4 +1,5 @@
 // scss/font.scss
+
 h1,
 h2,
 h3,
@@ -6,9 +7,17 @@ h4,
 h5,
 h6,
 p {
-    font-family: Inter;
+    font-family: "Inter", "Roboto", "Open Sans", "Lato", "Helvetica Neue", "Arial", "sans-serif";
     font-style: normal;
     line-height: normal;
+}
+
+.font-en {
+    font-family: Inter, "Roboto", "Open Sans", "Lato", "Helvetica Neue", Arial, sans-serif;
+}
+
+.font-zh {
+    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
 }
 
 h1,
@@ -53,16 +62,4 @@ h6 {
 p {
     font-size: 10px;
     overflow-wrap: break-word;
-}
-
-.text-white {
-    color: var(--Text-Color, #FFF);
-}
-
-.text-black {
-    color: var(--Text-Color, #000);
-}
-
-.text-gray {
-    color: var(--Text-Color, #888);
 }
