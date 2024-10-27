@@ -6,15 +6,15 @@ import { createLineIcon } from './line.js';
 
 export function createFooter() {
     const items = [
+        { href: "https://www.pixiv.net/users/73132253", iconClass: "fa-brands fa-pixiv", title: "Pixiv" },
         { href: "https://www.instagram.com/lee_871116", iconClass: "fa-brands fa-instagram", title: "Instagram" },
         { href: "https://www.youtube.com/channel/UCdFWtSFizZFpBovsUY7ZKyg", iconClass: "fa-brands fa-youtube", title: "YouTube" },
         { href: "https://github.com/jj2016025j", iconClass: "fa-brands fa-github", title: "GitHub" },
-        { href: "https://www.pixiv.net/users/73132253", iconClass: "fa-brands fa-pixiv", title: "Pixiv" },
         { href: "mailto:ruoxi2002@gmail.com", iconClass: "fa-brands fa-google", title: "Google" },
         { href: "mailto:jj2016025j@gmail.com", iconClass: "fa-solid fa-envelope", title: "Email" },
         { href: "tel:0971003199", iconClass: "fa-solid fa-phone", title: "Phone" },
         { href: "https://www.cakeresume.com/jj2016025j", iconClass: "fa-regular fa-file", title: "Cakeresume" },
-        { href: "https://www.linkedin.com/in/%E5%BB%BA%E9%99%9E-%E6%9D%8E-3145931b2/", iconClass: "fa-brands fa-linkedin", title: "LinkedIn" }
+        { href: "https://www.linkedin.com/in/%E5%BB%BA%E9%99%9E-%E6%9D%8E-3145931b2/", iconClass: "fa-brands fa-linkedin", title: "LinkedIn" },
     ];
     const lineIcons = createLineIcon();
     items.push(...lineIcons);

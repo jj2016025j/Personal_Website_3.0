@@ -1,5 +1,16 @@
 // scss/font.scss
 
+// 英文字體設置
+.font-en {
+    font-family: Inter, "Roboto", "Open Sans", "Lato", "Helvetica Neue", Arial, sans-serif;
+}
+
+// 中文字體設置
+.font-zh {
+    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+}
+
+// 標題和段落的字體設置
 h1,
 h2,
 h3,
@@ -12,54 +23,75 @@ p {
     line-height: normal;
 }
 
-.font-en {
-    font-family: Inter, "Roboto", "Open Sans", "Lato", "Helvetica Neue", Arial, sans-serif;
-}
-
-.font-zh {
-    font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
-}
-
+// 字體粗細
 h1,
 h2,
 h3,
-h4
-{
+h4 {
     font-weight: 700;
 }
 
 h5,
 h6,
-p{
+p {
     font-weight: 400;
 }
 
+// 響應式標題和段落設置
 h1 {
     font-size: 48px;
+    
+    @media (max-width: 768px) {
+        font-size: 36px; // 平板和手機
+    }
 }
 
 h2 {
     font-size: 36px;
+
+    @media (max-width: 768px) {
+        font-size: 30px;
+    }
 }
 
 h3 {
     font-size: 24px;
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
 }
 
 h4 {
     font-size: 16px;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
 }
 
 h5 {
     font-size: 14px;
     font-weight: 400;
+
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
 }
 
 h6 {
     font-size: 10px;
+
+    @media (max-width: 768px) {
+        font-size: 8px;
+    }
 }
 
 p {
     font-size: 10px;
     overflow-wrap: break-word;
+
+    @media (max-width: 768px) {
+        font-size: 9px;
+    }
 }

@@ -26,6 +26,10 @@ nav {
     display: flex;
     align-items: center;
     gap: 20px;
+    @media (max-width: 768px) {
+        flex-direction: column; // 在平板和手機上，讓導航條垂直顯示
+        gap: 10px;
+    }
 }
 
 ul {
@@ -36,6 +40,10 @@ ul {
     /* 移除左側預設縮進 */
     margin-left: 0;
     /* 視情況調整間距 */
+    @media (max-width: 768px) {
+        flex-direction: column; // 導航選單在平板和手機上也垂直顯示
+        gap: 10px;
+    }
 }
 
 a {
@@ -57,6 +65,9 @@ img {//undo 修改成適當大小
 .horizontal {
     display: flex;
     flex-direction: row;
+    @media (max-width: 768px) {
+        flex-direction: column; // 在手機上，將水平佈局改為垂直佈局
+    }
 }
 
 .vertical {
@@ -66,10 +77,16 @@ img {//undo 修改成適當大小
 
 .p-50-0 {
     padding: 50px 0px;
+    @media (max-width: 768px) {
+        padding: 20px 0px; // 減少小螢幕上的內邊距
+    }
 }
 
 .p-100-0 {
     padding: 100px 0px;
+    @media (max-width: 768px) {
+        padding: 40px 0px; // 調整小螢幕上的內邊距
+    }
 }
 
 .gap-10 {
@@ -77,13 +94,22 @@ img {//undo 修改成適當大小
 }
 
 .gap-20{
-    gap:20px
+    gap:20px;
+    @media (max-width: 768px) {
+        gap: 10px; // 減少小螢幕上的間距
+    }
 }
 
 .gap-50{
-    gap:50px
+    gap:50px;
+    @media (max-width: 768px) {
+        gap: 20px; // 減少小螢幕上的間距
+    }
 }
 
 .gap-100{
-    gap:100px
+    gap:100px;
+    @media (max-width: 768px) {
+        gap: 40px; // 減少小螢幕上的間距
+    }
 }

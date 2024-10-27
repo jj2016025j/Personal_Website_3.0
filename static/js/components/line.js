@@ -10,10 +10,10 @@ export function createLineIcon() {
     ];
 
     const isMobile = /Mobi|Android|iPhone/i.test(navigator.userAgent);
-    const g_lineLink = isMobile ? "https://line.me/R/ti/g/-jXkGN-sfK" : "line://R/ti/g/-jXkGN-sfK";
     const p_lineLink = isMobile ? "line://ti/p/HhwJIOE8Z1" : "https://line.me/ti/p/HhwJIOE8Z1";
+    const g_lineLink = isMobile ? "https://line.me/R/ti/g/-jXkGN-sfK" : "line://R/ti/g/-jXkGN-sfK";
     return [
-        // { href:lineLink, iconClass: "fa-brands fa-line", title: "LINE 個人" },
+        { href: p_lineLink, iconClass: "fa-brands fa-line", title: "LINE 個人" },
         { href: g_lineLink, iconClass: "fa-brands fa-line", title: "LINE 群組" },
     ];
 }
