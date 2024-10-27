@@ -1,29 +1,29 @@
 // scss/style.scss
 
 // 導入基礎樣式
-@use 'base/variables';
-@use 'base/color';
-@use 'base/font';
+@use 'base/_variables';
+@use 'base/_color';
+@use 'base/_font';
 
 // 導入佈局樣式
-@use 'layout/header';
-@use 'layout/footer';
-@use 'layout/grid';
+@use 'layout/_header';
+@use 'layout/_footer';
+@use 'layout/_grid';
 
 // 導入組件樣式
-@use 'components/buttons';
-@use 'components/homecover';
-@use 'components/pagetitle';
+@use 'components/_buttons';
+@use 'components/_homecover';
+@use 'components/_pagetitle';
 
-@use 'components/icons';
-@use 'components/options';
-@use 'components/product';
-@use 'components/portfolio';
-@use 'components/featured';
-@use 'components/jobs';
-@use 'components/skills';
-@use 'components/join-us';
-@use 'components/contact-us';
+@use 'components/_icons';
+@use 'components/_options';
+@use 'components/_product';
+@use 'components/_portfolio';
+@use 'components/_featured';
+@use 'components/_jobs';
+@use 'components/_skills';
+@use 'components/_join-us';
+@use 'components/_contact-us';
 
 //導入全域樣式
-@use 'global.scss'
+@use '_global.scss'
