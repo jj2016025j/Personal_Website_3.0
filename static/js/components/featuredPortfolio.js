@@ -4,7 +4,7 @@ import { renderList } from '../utils/render.js';
 function createFeaturedPortfolioItem(item) {
     return `
         <li>
-            <a href="/static/html/checkportfolio.html" class="featured-portfolio">
+            <a href="../html/checkportfolio.html" class="featured-portfolio">
                 <img class="featured-portfolio-img" src="${item.imgSrc}" alt="${item.title}">
                 <div class="featured-portfolio-content">
                     <div class="title-time-flex-start">
