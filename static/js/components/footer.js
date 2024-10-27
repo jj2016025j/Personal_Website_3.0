@@ -1,5 +1,6 @@
 // js/components/footer.js
 import { insertHTML } from '../utils/render.js';
+import { createLineIcon } from './line.js';
 
 // 手機是2、3可以，電腦是1、3可以
 
@@ -46,26 +47,4 @@ function createFooterLink(href, text) {
     return `
         <li><a href="${href}"><h5>${text}</h5></a></li>
     `;
-}
-
-function createLineIcon() {
-    const lineProtocolUrls = [
-        { href: "line://ti/p/20161116", iconClass: "fa-brands fa-line", title: "LINE 個人1" },
-        { href: "line://ti/p/HhwJIOE8Z1", iconClass: "fa-brands fa-line", title: "LINE 個人2" },
-        { href: "https://line.me/ti/p/HhwJIOE8Z1", iconClass: "fa-brands fa-line", title: "LINE 個人3" },
-        { href: "https://line.me/R/ti/g/-jXkGN-sfK", iconClass: "fa-brands fa-line", title: "LINE 群組" }
-    ];
-
-    const isMobile = /Mobi|Android|iPhone/i.test(navigator.userAgent);
-    const lineLink = isMobile ? "line://ti/p/HhwJIOE8Z1" : "https://line.me/ti/p/HhwJIOE8Z1";
-    return [
-        { href:lineLink, iconClass: "fa-brands fa-line", title: "LINE 個人" },
-        { href:"line://R/ti/g/-jXkGN-sfK", iconClass: "fa-brands fa-line", title: "LINE 群組" },
-    ];
-
-    return lineProtocolUrls.map(link => {
-        // 手機使用 `line://` 協議，桌面使用 `https://line.me` 連結
-        const href = isMobile && link.href.startsWith("line://") ? link.href : link.href.replace("line://", "https://line.me");
-        return { href, iconClass: link.iconClass, title: link.title }; // 返回物件而不是 HTML
-    });
 }
