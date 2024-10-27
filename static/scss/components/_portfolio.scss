@@ -1,0 +1,27 @@
+// File: components/_portfolio.scss
+
+.portfolio-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.portfolio-vertical {
+    display: flex;
+    width: 300px;
+    height: 350px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    gap: 5px;
+    padding: 20px;
+}
+
+.portfolio-img {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.50) 100%),
+        url('/static/images/00203-2639187278-0000.png') lightgray 50% / cover no-repeat;
+}

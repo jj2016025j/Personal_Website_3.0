@@ -12,9 +12,18 @@
 
 // 導入組件樣式
 @use 'components/buttons';
-@use 'components/cards';
 @use 'components/homecover';
 @use 'components/pagetitle';
+
+@use 'components/icons';
+@use 'components/options';
+@use 'components/product';
+@use 'components/portfolio';
+@use 'components/featured';
+@use 'components/jobs';
+@use 'components/skills';
+@use 'components/join-us';
+@use 'components/contact-us';
 
 //導入全域樣式
 @use 'global.scss'
