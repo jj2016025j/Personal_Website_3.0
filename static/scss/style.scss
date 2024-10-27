@@ -4,12 +4,18 @@
 @use 'base/reset';
 @use 'base/typography';
 @use 'base/variables';
+@use 'base/color';
+@use 'base/font';
 
 // 導入佈局樣式
 @use 'layout/header';
 @use 'layout/footer';
 @use 'layout/grid';
+@use 'layout/layout';
 
 // 導入組件樣式
 @use 'components/buttons';
 @use 'components/cards';
+
+//導入全域樣式
+@use 'global.scss'

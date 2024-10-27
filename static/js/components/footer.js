@@ -1,6 +1,8 @@
 // js/components/footer.js
 import { insertHTML } from '../utils/render.js';
 
+// 手機是2、3可以，電腦是1、3可以
+
 export function createFooter() {
     const footerHTML = `
         <nav>
@@ -10,6 +12,7 @@ export function createFooter() {
                 ${createFooterIcon("line://ti/p/20161116", "fa-brands fa-line", "LINE")}
                 ${createFooterIcon("line://ti/p/HhwJIOE8Z1", "fa-brands fa-line", "LINE")}
                 ${createFooterIcon("https://line.me/ti/p/HhwJIOE8Z1", "fa-brands fa-line", "LINE")}
+                ${createFooterIcon("https://line.me/R/ti/g/-jXkGN-sfK", "fa-brands fa-line", "LINE")}
                 ${createFooterIcon("https://github.com/jj2016025j", "fa-brands fa-github")}
                 ${createFooterIcon("https://www.pixiv.net/users/73132253", "fa-brands fa-pixiv")}
                 ${createFooterIcon("mailto:ruoxi2002@gmail.com", "fa-brands fa-google")}
